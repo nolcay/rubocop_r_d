@@ -19,4 +19,6 @@ Rubocop Pre Commit Hook
 [I found this rubocop pre-commit hook](https://gist.github.com/mpeteuil/6147292)
 that runs all staged or modified `.rb` files through rubocop. To utilize this
 script, you just replace the existing code in the `pre-commit` hook with the
-code in the gist file.
+code in the gist file. There are a few errors in the gist, the fixed one can be
+found in the hooks of this git repository. For it to work you (obviously) need
+the `rubocop` gem.
